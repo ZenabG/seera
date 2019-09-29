@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ChromeSuite" duration-ms="294731" started-at="2019-09-29T07:16:07Z" finished-at="2019-09-29T07:21:01Z">
+    <groups>
+    </groups>
+    <test name="Tajawal1Scenario1" duration-ms="67842" started-at="2019-09-29T07:16:07Z" finished-at="2019-09-29T07:17:14Z">
+      <class name="tests.Scenario1">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:tests.Scenario1@5442a311]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-09-29T07:16:07Z" finished-at="2019-09-29T07:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@194d329e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String)[pri:0, instance:tests.Scenario1@5442a311]" name="setUpDriver" is-config="true" duration-ms="3367" started-at="2019-09-29T07:16:07Z" finished-at="2019-09-29T07:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.Scenario1@5442a311]" name="startBrowser" is-config="true" duration-ms="12890" started-at="2019-09-29T07:16:10Z" finished-at="2019-09-29T07:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.tajawal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="before(org.testng.ITestResult)[pri:0, instance:tests.Scenario1@5442a311]" name="before" is-config="true" duration-ms="11" started-at="2019-09-29T07:16:23Z" finished-at="2019-09-29T07:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=Scenario1.scenario1()[pri:0, instance:tests.Scenario1@5442a311] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:tests.Scenario1@5442a311]" name="scenario1" duration-ms="50231" started-at="2019-09-29T07:16:23Z" finished-at="2019-09-29T07:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="killDriver(org.testng.ITestResult)[pri:0, instance:tests.Scenario1@5442a311]" name="killDriver" is-config="true" duration-ms="504" started-at="2019-09-29T07:17:13Z" finished-at="2019-09-29T07:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=Scenario1.scenario1()[pri:0, instance:tests.Scenario1@5442a311] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.Scenario1@5442a311]" name="afterTest" is-config="true" duration-ms="811" started-at="2019-09-29T07:17:14Z" finished-at="2019-09-29T07:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.Scenario1 -->
+    </test> <!-- Tajawal1Scenario1 -->
+    <test name="Almosafer2Scenario2" duration-ms="226871" started-at="2019-09-29T07:17:15Z" finished-at="2019-09-29T07:21:01Z">
+      <class name="tests.Scenario2">
+        <test-method status="PASS" signature="beforeS()[pri:0, instance:tests.Scenario2@1e397ed7]" name="beforeS" is-config="true" duration-ms="227" started-at="2019-09-29T07:16:06Z" finished-at="2019-09-29T07:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeS -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:tests.Scenario2@1e397ed7]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-09-29T07:17:15Z" finished-at="2019-09-29T07:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@54d1608f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String)[pri:0, instance:tests.Scenario2@1e397ed7]" name="setUpDriver" is-config="true" duration-ms="2366" started-at="2019-09-29T07:17:15Z" finished-at="2019-09-29T07:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.Scenario2@1e397ed7]" name="startBrowser" is-config="true" duration-ms="8710" started-at="2019-09-29T07:17:17Z" finished-at="2019-09-29T07:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.almosafer.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="FAIL" signature="scenario2()[pri:0, instance:tests.Scenario2@1e397ed7]" name="scenario2" duration-ms="212673" started-at="2019-09-29T07:17:26Z" finished-at="2019-09-29T07:20:58Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[Highest price on price filter is not equal to last flight price in sort by cheapest search results expected:<166...> but was:<453...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: Highest price on price filter is not equal to last flight price in sort by cheapest search results expected:<166...> but was:<453...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at PageMethods.FlightListingPage.comparePrices(FlightListingPage.java:158)
+at tests.Scenario2.scenario2(Scenario2.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method status="PASS" signature="before(org.testng.ITestResult)[pri:0, instance:tests.Scenario2@1e397ed7]" name="before" is-config="true" duration-ms="0" started-at="2019-09-29T07:17:26Z" finished-at="2019-09-29T07:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario2 status=FAILURE method=Scenario2.scenario2()[pri:0, instance:tests.Scenario2@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="killDriver(org.testng.ITestResult)[pri:0, instance:tests.Scenario2@1e397ed7]" name="killDriver" is-config="true" duration-ms="2282" started-at="2019-09-29T07:20:58Z" finished-at="2019-09-29T07:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario2 status=FAILURE method=Scenario2.scenario2()[pri:0, instance:tests.Scenario2@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.Scenario2@1e397ed7]" name="afterTest" is-config="true" duration-ms="833" started-at="2019-09-29T07:21:01Z" finished-at="2019-09-29T07:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="killAllDrivers()[pri:0, instance:tests.Scenario2@1e397ed7]" name="killAllDrivers" is-config="true" duration-ms="4" started-at="2019-09-29T07:21:01Z" finished-at="2019-09-29T07:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllDrivers -->
+      </class> <!-- tests.Scenario2 -->
+    </test> <!-- Almosafer2Scenario2 -->
+  </suite> <!-- ChromeSuite -->
+</testng-results>

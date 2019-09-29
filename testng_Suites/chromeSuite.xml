@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChromeSuite" >
+    <parameter name="browserDriver" value ="chrome" />
+    
+   <test name="Tajawal1Scenario1" enabled="true">
+       <parameter name="url" value="https://www.tajawal.com" />
+      <classes>
+          <class name="tests.Scenario1"/> 
+      </classes>      
+  </test> <!-- Test -->
+  
+  <test name="Tajawal2Scenario2" enabled="false">
+       <parameter name="url" value="https://www.tajawal.com" />
+      <classes>
+         <class name="tests.Scenario2"/> 
+      </classes>      
+  </test> <!-- Test -->
+  
+  <test name="Almosafer1Scenario1" enabled="false">
+      <parameter name="url" value="https://www.almosafer.com" />
+    <classes>
+          <class name="tests.Scenario1"/> 
+      </classes>
+  </test> <!-- Test -->  
+  
+  <test name="Almosafer2Scenario2" enabled="true">
+      <parameter name="url" value="https://www.almosafer.com" />
+    <classes>
+         <class name="tests.Scenario2"/>  
+      </classes>
+  </test> <!-- Test -->    
+</suite> <!-- Suite -->
